@@ -43,7 +43,7 @@ public class TandRTest {
 		removepage.clickSingleItem();
 		removepage.clickRemoveButton();
 		removepage.verifyItemRemoved();  
-		boolean verify = removepage.clickSingleItem(); 
+		boolean verify = removepage.verifyItemRemoved();  
 		Assert.assertTrue(verify); 
 		
 		 

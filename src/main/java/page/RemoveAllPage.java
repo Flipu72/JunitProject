@@ -36,10 +36,10 @@ WebDriver driver;
 		
 		if (Element.size() == 0) {  
 
-			System.out.println("All Elements not Removed");
+			System.out.println("All Elements Removed");
 		} else {  
 
-			System.out.println("All Elements Removed");
+			System.out.println("All Elements not Removed");
 		}
 
 	
